@@ -1,0 +1,51 @@
+complaint_id,customer_id,engineer_id,category,description,priority,status
+1,3,4,Internet Issue,This is a description for complaint 1,Low,Open
+2,21,3,Hardware Failure,This is a description for complaint 2,High,Open
+3,4,3,Network Downtime,This is a description for complaint 3,High,Closed
+4,22,5,Hardware Failure,This is a description for complaint 4,Low,In Progress
+5,11,9,Software Bug,This is a description for complaint 5,Medium,In Progress
+6,15,10,Hardware Failure,This is a description for complaint 6,Low,Closed
+7,5,3,Internet Issue,This is a description for complaint 7,Medium,Open
+8,21,5,Network Downtime,This is a description for complaint 8,Low,In Progress
+9,34,7,Hardware Failure,This is a description for complaint 9,Medium,In Progress
+10,23,6,Internet Issue,This is a description for complaint 10,Low,Closed
+11,8,2,Internet Issue,This is a description for complaint 11,Low,Closed
+12,41,9,Network Downtime,This is a description for complaint 12,High,In Progress
+13,9,3,Network Downtime,This is a description for complaint 13,Low,In Progress
+14,22,3,Internet Issue,This is a description for complaint 14,High,Open
+15,8,8,Network Downtime,This is a description for complaint 15,Low,In Progress
+16,4,3,Internet Issue,This is a description for complaint 16,High,Open
+17,33,5,Software Bug,This is a description for complaint 17,Medium,Open
+18,42,3,Software Bug,This is a description for complaint 18,Medium,Open
+19,17,4,Internet Issue,This is a description for complaint 19,Low,Closed
+20,20,7,Software Bug,This is a description for complaint 20,Low,Closed
+21,39,5,Network Downtime,This is a description for complaint 21,High,In Progress
+22,38,1,Network Downtime,This is a description for complaint 22,High,In Progress
+23,43,3,Hardware Failure,This is a description for complaint 23,High,Open
+24,19,2,Network Downtime,This is a description for complaint 24,High,In Progress
+25,31,6,Software Bug,This is a description for complaint 25,Low,In Progress
+26,17,10,Software Bug,This is a description for complaint 26,High,Open
+27,18,9,Software Bug,This is a description for complaint 27,Medium,In Progress
+28,47,5,Internet Issue,This is a description for complaint 28,Low,Open
+29,39,3,Internet Issue,This is a description for complaint 29,High,Closed
+30,45,9,Software Bug,This is a description for complaint 30,Low,In Progress
+31,34,5,Internet Issue,This is a description for complaint 31,High,In Progress
+32,49,2,Software Bug,This is a description for complaint 32,Medium,Closed
+33,37,5,Internet Issue,This is a description for complaint 33,High,Open
+34,23,1,Hardware Failure,This is a description for complaint 34,Medium,Open
+35,29,2,Software Bug,This is a description for complaint 35,Medium,In Progress
+36,34,8,Hardware Failure,This is a description for complaint 36,Medium,In Progress
+37,48,10,Network Downtime,This is a description for complaint 37,High,Open
+38,49,3,Network Downtime,This is a description for complaint 38,Medium,Open
+39,38,6,Internet Issue,This is a description for complaint 39,Medium,In Progress
+40,31,3,Network Downtime,This is a description for complaint 40,Low,Closed
+41,39,3,Hardware Failure,This is a description for complaint 41,Medium,Closed
+42,8,3,Hardware Failure,This is a description for complaint 42,Medium,Open
+43,2,3,Software Bug,This is a description for complaint 43,High,In Progress
+44,2,6,Software Bug,This is a description for complaint 44,High,Closed
+45,15,2,Network Downtime,This is a description for complaint 45,Medium,Closed
+46,6,4,Software Bug,This is a description for complaint 46,Medium,Open
+47,29,7,Network Downtime,This is a description for complaint 47,Low,Closed
+48,21,3,Hardware Failure,This is a description for complaint 48,Medium,Open
+49,47,5,Hardware Failure,This is a description for complaint 49,Low,Closed
+50,9,2,Software Bug,This is a description for complaint 50,Low,Closed
