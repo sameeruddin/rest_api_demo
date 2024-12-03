@@ -198,13 +198,23 @@ def get_job(job_id):
 
 @app.route('/jobs', methods=['GET'])
 def get_jobs():
-    try:
-        jobs = job_controller.get_all_jobs()
-        if jobs:
-            return jsonify(jobs)
-        return jsonify({"Error": "Job not found"}), 404
-    except Exception as e:
-        return jsonify({"Error": str(e)}), 400
+    job_status = request.args.get('status')
+    if job_status:
+        try:
+            jobs = job_controller.get_status_jobs(job_status)
+            if jobs:
+                return jsonify(jobs)
+            return jsonify({"Error": "Job not found"}), 404
+        except Exception as e:
+            return jsonify({"Error": str(e)}), 400
+    else:
+        try:
+            jobs = job_controller.get_all_jobs()
+            if jobs:
+                return jsonify(jobs)
+            return jsonify({"Error": "Job not found"}), 404
+        except Exception as e:
+            return jsonify({"Error": str(e)}), 400
 
 
 @app.route('/jobs/<int:job_id>', methods=['PUT'])

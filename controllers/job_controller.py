@@ -31,6 +31,19 @@ def get_all_jobs():
     finally:
         conn.close()
 
+def get_status_jobs(job_status):
+    query = "SELECT * FROM jobs WHERE status =%s;"
+    try:
+        conn = get_db_connection()
+        with conn.cursor(cursor_factory=RealDictCursor) as cursor:
+            cursor.execute(query, (job_status,))
+            jobs = cursor.fetchall()
+            return jobs
+    except Exception as e:
+        print("Error fetching jobs:", e)
+    finally:
+        conn.close()
+
 def get_job(job_id):
     query = "SELECT * FROM jobs WHERE job_id = %s;"
     try:

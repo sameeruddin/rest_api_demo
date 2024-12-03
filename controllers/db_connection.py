@@ -1,8 +1,9 @@
 import psycopg2
 
 # Database connection details
-DB_CONFIG = { # Enter DB connection parameters
-    }
+DB_CONFIG = {
+    # DB connections
+}
 
 def get_db_connection():
     try:
